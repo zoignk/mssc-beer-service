@@ -9,11 +9,12 @@ import zoig.springframwork.msscbeerservice.web.model.BeerStyleEnum;
 import java.util.UUID;
 
 public interface BeerService {
-    public BeerDto getBeerById(UUID beerId);
+
+    BeerDto getBeerById(UUID beerId, Boolean showInventoryOnHand);
 
     public BeerDto saveNewBeer(BeerDto beerDto);
 
     public BeerDto updateBeerById(UUID beerId, BeerDto beerDto);
 
-    BeerPagedList listBeers(String beerName, BeerStyleEnum beerStyle, PageRequest pageRequest);
+    BeerPagedList listBeers(String beerName, BeerStyleEnum beerStyle, PageRequest pageRequest, Boolean showInventoryOnHand);
 }
