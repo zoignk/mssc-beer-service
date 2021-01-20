@@ -1,0 +1,3 @@
+/home/zoig/Documents/udemy/springBootMicroservices/mssc-beer-service/src/test/java/zoig/springframwork/msscbeerservice/MsscBeerServiceApplicationTests.java
+/home/zoig/Documents/udemy/springBootMicroservices/mssc-beer-service/src/test/java/zoig/springframwork/msscbeerservice/services/inventory/BeerInventoryServiceRestTemplateImplTest.java
+/home/zoig/Documents/udemy/springBootMicroservices/mssc-beer-service/src/test/java/zoig/springframwork/msscbeerservice/web/controller/BeerControllerTest.java
